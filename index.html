@@ -5,6 +5,8 @@
 
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Cambo" rel="stylesheet">
+
 
   <script src="main.js"></script>
 
@@ -13,28 +15,38 @@
 <body>
 
 <!-- NAV BAR -->
-  <ul class="nav nav-pills">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="#">Profile</a></li>
-  <li role="presentation"><a href="#">Messages</a></li>
-</ul>
 
 <!-- QUIZ BOX -->
+
+<div class="row">
+  <div class="col-md-12 title">
+    <p>Which superheroe are you?</p>
+  </div>
+</div>
+
+
 <div class="row">
   <div class="col-md-6">
-    <h1>Take the quiz</h1>
 
     <form id="quiz" name="quiz">
 
-     <p>Who are you in your group of friends?</p>
+     <p class="question">Who are you in your group of friends?</p>
 
        <input type="radio" id="option" name="question1" value="funny" checked> The funny one<br>
        <input type="radio" id="option" name="question1" value="attention"> The center of attention<br>
 
-    <p> What is more important, to learn by</p>
+    <p class="question"> What is more important, to learn by</p>
 
       <input type="radio" id="option" name="question2" value="experience" checked>Experience<br>
       <input type="radio" id="option" name="question2" value="books">Books<br>
+
+    <p class="question">Are you a big planner?</p>
+
+      <input type="radio" id="option" name="question3" value="yes" checked>Yes<br>
+      <input type="radio" id="option" name="question3" value="no">No<br>
+
+
+
 
       <input id="button" type="button" value="Submit" onclick="check();">
 
@@ -46,12 +58,61 @@
 
         <div id="after-submit" class="submit">
         <p id="message"></p>
+        <p id="personality"></p>
         <img id="picture">
 
         </div>
   </div>
 </div>
 
+<!-- UPCOMING MOVIES -->
+
+<div class="row">
+
+  <div class="col-md-12">
+    <p class="title">Coming Soon</p>
+  </div>
+
+
+
+  <div class="col-md-12 moviebox">
+
+    <p class="headline">The Guardians of the Galaxy Vol 2</p>
+
+    <p class="date">May 5, 2017<br>Tickets & Showtime<p>
+      <a href="https://www.fandango.com/guardiansofthegalaxyvol.2_190573/movieoverview" target="_blank">
+    <img src="fandango_0.png"></a>
+
+      <p class="moviedescription">
+
+      Peter Quill and his fellow Guardians are hired by a powerful alien race, the Sovereign, to protect their precious batteries from invaders. When it is discovered that Rocket has stolen the items they were sent to guard, the Sovereign dispatch their armada to search for vengeance. As the Guardians try to escape, the mystery of Peter's parentage is revealed.
+    </p>
+
+    <video width="320" height="240" autoplay>
+    <source src="guardians.mp4" type="video/mp4">
+    </video>
+
+
+    <p class="headline">Wonder Woman</p>
+
+    <p class="date">June 2, 2017<br>Tickets & Showtime<p>
+    <a href="http://www.fandango.com/wonderwoman_191725/movieoverview" target="_blank"><img src="fandango_0.png"  class="fandangologo"></a>
+    <p class="moviedescription">
+
+  Before she was Wonder Woman, she was Diana, princess of the Amazons, trained to be an unconquerable warrior. Raised on a sheltered island paradise, Diana meets an American pilot who tells her about the massive conflict that's raging in the outside world. Convinced that she can stop the threat, Diana leaves her home for the first time. Fighting alongside men in a war to end all wars, she finally discovers her full powers and true destiny.
+
+    </p>
+
+    <img src="wonderwoman.gif" width="300" height="180">
+
+
+
+
+
+
+  </div>
+
+</div>
 
 
 
