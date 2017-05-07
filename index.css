@@ -10,3 +10,16 @@ h1 {
 .submit {
   visibility: hidden;
 }
+
+#quiz {
+  padding: 5px 187px;
+  color: white;
+  font: 17px/30px Times, serif;
+  background-color: rgba(13, 13, 13, 0.85);
+  border: 3px solid gray;
+  border-radius: 23px;
+  }
+
+#button {
+  color: red;
+}
