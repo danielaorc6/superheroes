@@ -1,0 +1,12 @@
+body {
+  background-image: url("mainbackground.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+}
+
+.submit {
+  visibility: hidden;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <script src="main.js"></script>
+
+</head>
+
+<body>
+
+<!-- NAV BAR -->
+  <ul class="nav nav-pills">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+
+<div class="row">
+  <div class="col-md-6">
+    <h1>Take the quiz</h1>
+
+    <form id="quiz" name="quiz">
+
+     <p>Who are you in your group of friends?</p>
+
+       <input type="radio" id="option" name="question1" value="funny" checked> The funny one<br>
+       <input type="radio" id="option" name="question1" value="attention"> The center of attention<br>
+
+    <p> What is more important, to learn by</p>
+
+      <input type="radio" id="option" name="question2" value="experience" checked>Experience<br>
+      <input type="radio" id="option" name="question2" value="books">Books<br>
+
+      <input id="button" type="button" value="Submit" onclick="check();">
+
+     </form>
+  </div>
+
+  <div class="col-md-6">
+
+        <div id="after-submit" class="submit">
+        <p id="message"></p>
+        <img id="picture">
+
+        </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
