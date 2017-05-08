@@ -20,6 +20,7 @@ body {
 
 .submit {
   visibility: hidden;
+  display: none;
 }
 
 #quiz {
@@ -32,7 +33,9 @@ body {
   background-color: rgba(13, 13, 13, 0.85);
   border: 2px solid lavenderblush;
   border-radius: 23px;
+  margin-left: 56%;
   margin-left: 97px;
+
   }
 
 #option {

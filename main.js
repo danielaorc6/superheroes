@@ -60,3 +60,14 @@ if (question1 == "funny" && question2 == "experience" && question3 == "yes") {
 document.getElementById('after-submit').style.visibility = "visible";
 
 }
+
+// --------------ANSWER BOX VISIVILITY----------------------
+
+ $(document).ready(function(){
+   $("#quiz").click(function(){
+       $("#quiz").css({marginLeft:'97px'})
+          $(".submit").show().css({display: 'inline-block'})
+
+   });
+
+ });
