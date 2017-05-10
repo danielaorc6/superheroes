@@ -2,21 +2,27 @@
 
 <html>
 <head>
-
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="batman.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Cambo" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-
-
   <script src="main.js"></script>
+    <script src="batman.js"></script>
+
 
 </head>
 
 <body>
 
 <!-- NAV BAR -->
+
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active"><a href="#">Quiz</a></li>
+      <li role="presentation"><a href="movies.html">Movies</a></li>
+      <li role="presentation"><a href="#">Slide Stories</a></li>
+    </ul>
 
 <!-- QUIZ BOX -->
 
@@ -70,7 +76,7 @@
 
 <!-- UPCOMING MOVIES -->
 
-<div class="row">
+<div class="row" id="movies"><a name='movies'></a>
 
   <div class="col-md-12">
     <p class="title">Coming Soon</p>
@@ -111,6 +117,33 @@
   </div>
 
 </div>
+
+<!-- BATMAN STORY -->
+
+<div class="col-md-12">
+  <p class="title">Watch Some Short Stories</p>
+</div>
+
+
+<div class="container">
+
+      <div id="slider">
+        <ul class="slides">
+          <li class="slide"><img src="batman1.jpg"></li>
+          <li class="slide"><img src="batman2.jpg"></li>
+          <li class="slide"><img src="batman3.jpg"></li>
+          <li class="slide"><img src="batman4.jpg"></li>
+          <li class="slide"><img src="batman5.jpg"></li>
+          <li class="slide"><img src="batman6.jpg"></li>
+          <li class="slide"><img src="batman7.jpg"></li>
+          <li class="slide"><img src="batman8.jpg"></li>
+        </ul>
+
+      </div>
+    </div>
+
+
+
 
 </body>
 
