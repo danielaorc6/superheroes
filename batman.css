@@ -1,12 +1,14 @@
 
+
  .container {
   text-align: center;
   border: 2px solid lavenderblush;
   background-color: rgba(13, 13, 13, 0.85);
   border-radius: 24px;
-  padding-left: 4%;
-  max-width: 562px;
-  margin: 4% auto;
+  padding-left: 58px;
+  width: 562px;
+  margin-bottom: 2%;
+
 }
 
 #slider {
@@ -24,6 +26,29 @@
 }
 
 #slider .slide {
+  float:left;
+  list-style-type: none;
+  width: 430px;
+  height: 242px;
+}
+
+/*---------------------SUPERMAN-----------------*/
+
+#slider2 {
+  width: 430px;
+  height: 242px;
+  overflow: hidden;
+}
+
+#slider2 .slides2 {
+  display: block;
+  width: 6000px;
+  height: 242px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#slider2 .slide2 {
   float:left;
   list-style-type: none;
   width: 430px;
