@@ -67,9 +67,8 @@ document.getElementById('after-submit').style.visibility = "visible";
    $("#quiz").click(function(){
        $("#quiz").css({marginLeft:'5%', width:'95%'})
           $(".submit").show().css({display: 'inline-block'})
-
    });
 
-   $(".deadpoolmini").effect("bounce", { times:3 }, 300);
+
 
  });

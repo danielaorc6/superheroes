@@ -154,3 +154,36 @@ body {
   font-size: 19px;
   padding: 0px 34px;
 }
+
+.new {
+  border: 1px solid lavenderblush;
+  background-color: rgba(13, 13, 13, 0.85);
+  padding-top: 27px;
+  border-radius: 26px;
+}
+
+/*******************MEDIA QUERY IPHONE5****************/
+
+@media screen and (device-aspect-ratio: 40/71)  {
+  #quiz {
+    width: 61%;
+    margin-left: 20%;
+  }
+
+  .title {
+    padding-left: -36px;
+  }
+
+  .maintitle {
+    padding-left: 54px;
+  }
+
+  .moviebox {
+    width: 784px;
+  }
+
+  .new {
+    width: 394px;
+    margin-left: 30%;
+  }
+}
