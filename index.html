@@ -9,24 +9,38 @@
 
   <link rel="stylesheet" type="text/css" href="batman.css">
 
-  <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Cambo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Cambo|Architects+Daughter" rel="stylesheet">
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 
 
   <script src="main.js"></script>
-    <script src="batman.js"></script>
+  <script src="batman.js"></script>
 
 
 </head>
 
 <body>
 
+<!-- NAV BAR-->
+
+<div class="row">
+  <div class="col-md-12">
+    <ul class="navbar">
+      <li class="navlist"><a href="#quiz">Quiz</a></li>
+      <li class="navlist"><a href="#movies">Comming Soon</a></li>
+      <li class="navlist"><a href="#story">Stories</a></li>
+      <li class="navlist"><a href="#news">News</a></li>
+    </ul>
+  </div>
+</div>
+
 <!-- 5 MINUTE STOP-->
 
 <div class="row">
-  <div class="col-md-12 title">
-    <p>A 5 MINUTES SUPERHEROE STOP!</p>
+  <div class="col-md-12 maintitle">
+    <p><b>YOUR 5 MINUTES SUPERHEROE STOP!</b>  </p>
   </div>
 </div>
 
@@ -127,7 +141,7 @@
 
 <!-- BATMAN STORY -->
 
-<div class="col-md-12">
+<div class="col-md-12 story">
   <p class="title">Watch Some Short Stories</p>
 </div>
 
@@ -151,7 +165,7 @@
     </div>
   </div>
 
-  <div class="col-md-12 storybox">
+  <div class="col-md-12" id="story">
     <div class="container">
 
         <div id="slider2">
@@ -170,6 +184,39 @@
       </div>
     </div>
 
+
+<!-- NEWS -->
+    <div class="col-md-12 story">
+      <p class="title">News</p>
+    </div>
+
+    <div class="row" id="news">
+        <div class="col-md-3 new">
+          <img src="news1.jpg">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="col-md-3 new">
+          <img src="news2.jpg">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+
+        <div class="col-md-3 new">
+            <img src="news3.jpg">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        <div class="col-md-3 new">
+          <img src="news4.jpg">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+  </div>
 
 
 

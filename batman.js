@@ -62,11 +62,12 @@ $(document).ready(function(){
   }
 
     function pauseSlider2(){
-        clearInterval(interval);
+        clearInterval(interval2);
     }
 
       $slider2.on('mouseenter', pauseSlider2).on('mouseleave', startSlider2);
 
       startSlider2();
+
 
 });
